@@ -1,14 +1,14 @@
-
-## Briefly describing the status of my system
-- Fragments: **Home**, **Dashboard**, and **Notification**
-- Each fragment has three independent timers. Each timers have three buttons to be controlled over:
-    + "Start": Start the timer, either from 0, or where we left off when hitting "Pause"
-    + "Stop/Pause": Temporarily pause the timer
-    + "Reset": Reset the timer to 0
-- All timers survive thoroughout changes: screen changing, phone rotation.
-- Additional feature: 
-    + In **Home**: I added incremented counter to increment the timer 
-- All tests are part. A part of LiveData tests is consulted by indicated Github link
-
-
-
+### Stopwatch App :stopwatch: <img src="https://github.com/sciencepal/sciencepal/blob/master/assets/Hi.gif" width="29px"> 
+- The Stopwatch app has three independent timers on separate screens that survive screen changes and rotation.
+- A model, fragment, and unittests are included for each.
+- Each screen can be navigated using the three buttons located at the bottom:
+    + Home
+    + Dashboard
+    + Notifications
+- Each timer has three buttons that work according to their name:
+    + Start
+    + Stop/Pause
+    + Reset
+- Below is a representation of the technical issues I faced during this project:
+  
+<img src="https://media1.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" />
